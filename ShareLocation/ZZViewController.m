@@ -8,11 +8,18 @@
 
 #import "ZZViewController.h"
 
+#import <GoogleMaps/GoogleMaps.h>
+
 @interface ZZViewController ()
   
 @end
 
 @implementation ZZViewController
+
+//- (void)loadView{
+//    GMSMapView *mapView = [[GMSMapView alloc] initWithFrame:self.view.bounds];
+//    self.view = mapView;
+//}
 
 - (void)viewDidLoad
 {

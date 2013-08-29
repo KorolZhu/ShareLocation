@@ -9,11 +9,14 @@
 #import "ZZAppDelegate.h"
 
 #import "ZZViewController.h"
+#import <GoogleMaps/GoogleMaps.h>
 
 @implementation ZZAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [GMSServices provideAPIKey:@"AIzaSyD5x4xHWK6GCMPl1r7f_c88ATDr_aABQLY"];
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.viewController = [[ZZViewController alloc] initWithNibName:@"ZZViewController" bundle:nil];
