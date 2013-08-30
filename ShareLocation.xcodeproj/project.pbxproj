@@ -17,7 +17,6 @@
 		450F13E017CF4A62007A8EC4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 450F13DF17CF4A62007A8EC4 /* Default@2x.png */; };
 		450F13E217CF4A62007A8EC4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 450F13E117CF4A62007A8EC4 /* Default-568h@2x.png */; };
 		450F13E517CF4A62007A8EC4 /* ZZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 450F13E417CF4A62007A8EC4 /* ZZViewController.m */; };
-		450F13E817CF4A62007A8EC4 /* ZZViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 450F13E617CF4A62007A8EC4 /* ZZViewController.xib */; };
 		450F13F017CF4A62007A8EC4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450F13EF17CF4A62007A8EC4 /* SenTestingKit.framework */; };
 		450F13F117CF4A62007A8EC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450F13CB17CF4A61007A8EC4 /* UIKit.framework */; };
 		450F13F217CF4A62007A8EC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450F13CD17CF4A61007A8EC4 /* Foundation.framework */; };
@@ -37,6 +36,12 @@
 		450F142917CF5765007A8EC4 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450F142817CF5765007A8EC4 /* OpenGLES.framework */; };
 		450F142B17CF5771007A8EC4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450F142A17CF5771007A8EC4 /* QuartzCore.framework */; };
 		450F142D17CF5779007A8EC4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450F142C17CF5779007A8EC4 /* SystemConfiguration.framework */; };
+		4547D80617D04679000A4FFA /* Foursquare2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4547D80317D04679000A4FFA /* Foursquare2.m */; };
+		4547D80717D04679000A4FFA /* FSRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = 4547D80517D04679000A4FFA /* FSRequester.m */; };
+		4547D80A17D0469E000A4FFA /* FSTargetCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = 4547D80917D0469E000A4FFA /* FSTargetCallback.m */; };
+		4547D80B17D046E3000A4FFA /* FSTargetCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = 4547D80917D0469E000A4FFA /* FSTargetCallback.m */; };
+		4547D81017D0477B000A4FFA /* FSVenue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4547D80D17D0477B000A4FFA /* FSVenue.m */; };
+		4547D81117D0477B000A4FFA /* FSConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4547D80F17D0477B000A4FFA /* FSConverter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,7 +70,6 @@
 		450F13E117CF4A62007A8EC4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		450F13E317CF4A62007A8EC4 /* ZZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZViewController.h; sourceTree = "<group>"; };
 		450F13E417CF4A62007A8EC4 /* ZZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZViewController.m; sourceTree = "<group>"; };
-		450F13E717CF4A62007A8EC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZZViewController.xib; sourceTree = "<group>"; };
 		450F13EE17CF4A62007A8EC4 /* ShareLocationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareLocationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		450F13EF17CF4A62007A8EC4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		450F13F717CF4A62007A8EC4 /* ShareLocationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShareLocationTests-Info.plist"; sourceTree = "<group>"; };
@@ -86,6 +90,16 @@
 		450F142817CF5765007A8EC4 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		450F142A17CF5771007A8EC4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		450F142C17CF5779007A8EC4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4547D80217D04679000A4FFA /* Foursquare2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Foursquare2.h; sourceTree = "<group>"; };
+		4547D80317D04679000A4FFA /* Foursquare2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Foursquare2.m; sourceTree = "<group>"; };
+		4547D80417D04679000A4FFA /* FSRequester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSRequester.h; sourceTree = "<group>"; };
+		4547D80517D04679000A4FFA /* FSRequester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSRequester.m; sourceTree = "<group>"; };
+		4547D80817D0469E000A4FFA /* FSTargetCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTargetCallback.h; sourceTree = "<group>"; };
+		4547D80917D0469E000A4FFA /* FSTargetCallback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTargetCallback.m; sourceTree = "<group>"; };
+		4547D80C17D0477B000A4FFA /* FSVenue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSVenue.h; sourceTree = "<group>"; };
+		4547D80D17D0477B000A4FFA /* FSVenue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSVenue.m; sourceTree = "<group>"; };
+		4547D80E17D0477B000A4FFA /* FSConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSConverter.h; sourceTree = "<group>"; };
+		4547D80F17D0477B000A4FFA /* FSConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSConverter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,11 +186,11 @@
 		450F13D117CF4A61007A8EC4 /* ShareLocation */ = {
 			isa = PBXGroup;
 			children = (
+				4547D80117D04650000A4FFA /* Foursquare */,
 				450F13DA17CF4A61007A8EC4 /* ZZAppDelegate.h */,
 				450F13DB17CF4A61007A8EC4 /* ZZAppDelegate.m */,
 				450F13E317CF4A62007A8EC4 /* ZZViewController.h */,
 				450F13E417CF4A62007A8EC4 /* ZZViewController.m */,
-				450F13E617CF4A62007A8EC4 /* ZZViewController.xib */,
 				450F13D217CF4A61007A8EC4 /* Supporting Files */,
 			);
 			path = ShareLocation;
@@ -213,6 +227,23 @@
 				450F13F817CF4A62007A8EC4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4547D80117D04650000A4FFA /* Foursquare */ = {
+			isa = PBXGroup;
+			children = (
+				4547D80217D04679000A4FFA /* Foursquare2.h */,
+				4547D80317D04679000A4FFA /* Foursquare2.m */,
+				4547D80417D04679000A4FFA /* FSRequester.h */,
+				4547D80517D04679000A4FFA /* FSRequester.m */,
+				4547D80817D0469E000A4FFA /* FSTargetCallback.h */,
+				4547D80917D0469E000A4FFA /* FSTargetCallback.m */,
+				4547D80C17D0477B000A4FFA /* FSVenue.h */,
+				4547D80D17D0477B000A4FFA /* FSVenue.m */,
+				4547D80E17D0477B000A4FFA /* FSConverter.h */,
+				4547D80F17D0477B000A4FFA /* FSConverter.m */,
+			);
+			name = Foursquare;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,7 +322,6 @@
 				450F13DE17CF4A62007A8EC4 /* Default.png in Resources */,
 				450F13E017CF4A62007A8EC4 /* Default@2x.png in Resources */,
 				450F13E217CF4A62007A8EC4 /* Default-568h@2x.png in Resources */,
-				450F13E817CF4A62007A8EC4 /* ZZViewController.xib in Resources */,
 				450F140717CF5035007A8EC4 /* GoogleMaps.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -327,9 +357,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4547D80B17D046E3000A4FFA /* FSTargetCallback.m in Sources */,
 				450F13D817CF4A61007A8EC4 /* main.m in Sources */,
 				450F13DC17CF4A61007A8EC4 /* ZZAppDelegate.m in Sources */,
 				450F13E517CF4A62007A8EC4 /* ZZViewController.m in Sources */,
+				4547D80617D04679000A4FFA /* Foursquare2.m in Sources */,
+				4547D80717D04679000A4FFA /* FSRequester.m in Sources */,
+				4547D81017D0477B000A4FFA /* FSVenue.m in Sources */,
+				4547D81117D0477B000A4FFA /* FSConverter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +373,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				450F13FD17CF4A62007A8EC4 /* ShareLocationTests.m in Sources */,
+				4547D80A17D0469E000A4FFA /* FSTargetCallback.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,14 +394,6 @@
 				450F13D517CF4A61007A8EC4 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		450F13E617CF4A62007A8EC4 /* ZZViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				450F13E717CF4A62007A8EC4 /* en */,
-			);
-			name = ZZViewController.xib;
 			sourceTree = "<group>";
 		};
 		450F13F817CF4A62007A8EC4 /* InfoPlist.strings */ = {
@@ -405,7 +433,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -429,6 +457,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -445,7 +474,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShareLocation/ShareLocation-Prefix.pch";
 				INFOPLIST_FILE = "ShareLocation/ShareLocation-Info.plist";
-				OTHER_LDFLAGS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
@@ -462,7 +495,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShareLocation/ShareLocation-Prefix.pch";
 				INFOPLIST_FILE = "ShareLocation/ShareLocation-Info.plist";
-				OTHER_LDFLAGS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;

@@ -8,6 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
+@class FSVenue;
+
+@protocol ShareLocationDelegate;
+
 @interface ZZViewController : UIViewController
+
+@property(nonatomic,weak)id<ShareLocationDelegate>delegate;
+
+@end
+
+@protocol ShareLocationDelegate <NSObject>
+
+-(void)didSelectVenue:(FSVenue *)venue;
 
 @end
